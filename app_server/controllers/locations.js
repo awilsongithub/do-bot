@@ -69,7 +69,8 @@ renderHomepage = function(req, res, responseBody){
     sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffe, cake or a pint? Let Loc8r help you find the place you're looking for.",
     locations: responseBody,
     message: message
-  });
+    }
+  );
 };
 
 /**************** LOCATION DETAILS PAGES ********************/
