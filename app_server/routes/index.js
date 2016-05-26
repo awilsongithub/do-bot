@@ -13,7 +13,7 @@ var ctrlOthers = require('../controllers/others');
 
 /* TODO test render hbs AND COMMENTED OUT MAIN / ROUTE BELOW */
 router.get('/', function(req, res){
-  res.render('hello');
+  res.render('june');
 });
 
 
