@@ -60,16 +60,23 @@ renderHomepage = function(req, res, responseBody){
     message = "No places found nearby";
   }
   console.log(responseBody);
-  res.render('locations-list', {
-    title: 'Loc8r - Find a place to work with wifi',
-    pageHeader: {
-      title: 'Loc8r',
-      strapline: 'Find a place to work with wifi near you'
-    },
-    sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffe, cake or a pint? Let Loc8r help you find the place you're looking for.",
-    locations: responseBody,
-    message: message
-    }
+  res.render('locationslist'
+
+  // , { pageHeader: {
+  //   title: 'Loc8r',
+  //   strapline: 'Find a place to work with wifi near you'
+  // }}
+
+  // {
+  //   title: 'Loc8r - Find a place to work with wifi',
+  //   pageHeader: {
+  //     title: 'Loc8r',
+  //     strapline: 'Find a place to work with wifi near you'
+  //   },
+  //   sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffe, cake or a pint? Let Loc8r help you find the place you're looking for.",
+  //   locations: responseBody,
+  //   message: message
+  //   }
   );
 };
 
