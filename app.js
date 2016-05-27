@@ -26,28 +26,6 @@ var users = require('./app_server/routes/users');
 
 var app = express();
 
-
-
-
-
-// express-handlebars helpers for any template js
-// var hbs = exphbs.create({
-//   helpers: {
-//     foo: function() {
-//
-//       console.log('hello from helper log');
-//       return 'hello from helper';
-//     }
-//   }
-// });
-
-
-
-
-
-
-
-
 // view engine setup Jade
 // app.set('views', path.join(__dirname, 'app_server', 'views'));
 // app.set('view engine', 'jade');
